@@ -14,12 +14,12 @@ using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Intrinsic.Interfaces;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumTeleportation\",\"Name\":\"RunProgram\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":10,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\QuantumTeleportation\\\\Program.qs\",\"Position\":{\"Item1\":11,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumTeleportation\",\"Name\":\"RunProgram\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\QuantumTeleportation\\\\Program.qs\",\"Position\":{\"Item1\":11,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"QuantumTeleportation\",\"Name\":\"RunProgram\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Core\",\"Name\":\"EntryPoint\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":12}}]},\"Argument\":{\"Item1\":{\"Case\":\"UnitValue\"},\"Item2\":[],\"Item3\":{\"Case\":\"UnitType\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":12},\"Item2\":{\"Line\":1,\"Column\":14}}]}},\"Offset\":{\"Item1\":10,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\Program.qs\",\"Position\":{\"Item1\":11,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"QuantumTeleportation\",\"Name\":\"RunProgram\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\Program.qs\",\"Position\":{\"Item1\":11,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":21}},\"Documentation\":[]}")]
 #line hidden
 namespace QuantumTeleportation
 {
-    [SourceLocation("C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Program.qs", OperationFunctor.Body, 12, -1)]
+    [SourceLocation("C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Program.qs", OperationFunctor.Body, 12, -1)]
     public partial class RunProgram : Operation<QVoid, QVoid>, ICallable
     {
         public RunProgram(IOperationFactory m) : base(m)
@@ -49,18 +49,18 @@ namespace QuantumTeleportation
 
         public override Func<QVoid, QVoid> __Body__ => (__in__) =>
         {
-#line 13 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Program.qs"
+#line 14 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Program.qs"
             foreach (var idxRun in new QRange(1L, 8L))
 #line hidden
             {
-#line 14 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Program.qs"
+#line 16 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Program.qs"
                 var sent = Microsoft__Quantum__Random__DrawRandomBool.Apply(0.5D);
-#line 15 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Program.qs"
+#line 17 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Program.qs"
                 var received = Teleportation__TeleportClassicalMessage.Apply(sent);
-#line 16 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Program.qs"
+#line 18 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Program.qs"
                 Message__.Apply(String.Format("Round {0}: Sent {1}, got {2}.", idxRun, sent, received));
-#line 17 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Program.qs"
-                Message__.Apply(((sent == received) ? "Teleportation successful!" : ""));
+#line 19 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Program.qs"
+                Message__.Apply(((sent == received) ? "Success.\n" : "Failed."));
             }
 
 #line hidden

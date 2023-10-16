@@ -14,14 +14,14 @@ using Microsoft.Quantum.Intrinsic;
 using Microsoft.Quantum.Intrinsic.Interfaces;
 using Microsoft.Quantum.Simulation.Core;
 
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleportation\",\"Name\":\"Teleport\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\QuantumTeleportation\\\\Teleportation.qs\",\"Position\":{\"Item1\":35,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"msg\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"target\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":40}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[\" # Summary\",\" Sends the state of one qubit to a target qubit by using\",\" teleportation.\",\"\",\" Notice that after calling Teleport, the state of `msg` is\",\" collapsed.\",\"\",\" # Input\",\" ## msg\",\" A qubit whose state we wish to send.\",\" ## target\",\" A qubit initially in the |0〉 state that we want to send\",\" the state of msg to.\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleportation\",\"Name\":\"Teleport\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\QuantumTeleportation\\\\Teleportation.qs\",\"Position\":{\"Item1\":35,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
-[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleportation\",\"Name\":\"TeleportClassicalMessage\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\QuantumTeleportation\\\\Teleportation.qs\",\"Position\":{\"Item1\":75,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":35}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"message\"]},\"Type\":{\"Case\":\"Bool\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":44}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Bool\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[\" # Summary\",\" Uses teleportation to send a classical message from one qubit\",\" to another.\",\"\",\" # Input\",\" ## message\",\" If `true`, the source qubit (`here`) is prepared in the\",\" |1〉 state, otherwise the source qubit is prepared in |0〉.\",\"\",\" ## Output\",\" The result of a Z-basis measurement on the teleported qubit,\",\" represented as a Bool.\"]}")]
-[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleportation\",\"Name\":\"TeleportClassicalMessage\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\QuantumTeleportation\\\\Teleportation.qs\",\"Position\":{\"Item1\":75,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":35}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleportation\",\"Name\":\"Teleport\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\Teleportation.qs\",\"Position\":{\"Item1\":15,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"msg\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":21},\"Item2\":{\"Line\":1,\"Column\":24}}}]},{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"target\"]},\"Type\":{\"Case\":\"Qubit\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":34},\"Item2\":{\"Line\":1,\"Column\":40}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"Qubit\"},{\"Case\":\"Qubit\"}]]},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleportation\",\"Name\":\"Teleport\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\Teleportation.qs\",\"Position\":{\"Item1\":15,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":19}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Teleportation\",\"Name\":\"TeleportClassicalMessage\"},\"Attributes\":[],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\Teleportation.qs\",\"Position\":{\"Item1\":59,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":35}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[{\"Case\":\"QsTupleItem\",\"Fields\":[{\"VariableName\":{\"Case\":\"ValidName\",\"Fields\":[\"message\"]},\"Type\":{\"Case\":\"Bool\"},\"InferredInformation\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Position\":{\"Case\":\"Null\"},\"Range\":{\"Item1\":{\"Line\":1,\"Column\":37},\"Item2\":{\"Line\":1,\"Column\":44}}}]}]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"Bool\"},\"ReturnType\":{\"Case\":\"Bool\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[\" # Summary\",\" Uses teleportation to send a classical message from one qubit\",\" to another.\",\"\",\" # Input: message\",\" If `true`, the source qubit (`here`) is prepared in the\",\" |1〉 state, otherwise the source qubit is prepared in |0〉.\",\"\",\" Output:\",\" The result of a Z-basis measurement on the teleported qubit,\",\" represented as a Bool.\"]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Teleportation\",\"Name\":\"TeleportClassicalMessage\"},\"Attributes\":[],\"SourceFile\":\"C:\\\\Users\\\\Andres\\\\Documents\\\\GitHub\\\\School\\\\QuantumComputing\\\\QuantumTeleportation\\\\Teleportation.qs\",\"Position\":{\"Item1\":59,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":35}},\"Documentation\":[]}")]
 #line hidden
 namespace Teleportation
 {
-    [SourceLocation("C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs", OperationFunctor.Body, 36, 76)]
+    [SourceLocation("C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs", OperationFunctor.Body, 16, 60)]
     public partial class Teleport : Operation<(Qubit,Qubit), QVoid>, ICallable
     {
         public Teleport(IOperationFactory m) : base(m)
@@ -99,31 +99,31 @@ namespace Teleportation
             var (msg,target) = __in__;
 #line hidden
             {
-#line 37 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 18 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                 var register = Allocate__.Apply();
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 39 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 21 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                     Microsoft__Quantum__Intrinsic__H.Apply(register);
-#line 40 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 22 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                     Microsoft__Quantum__Intrinsic__CNOT.Apply((register, target));
-#line 43 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 25 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                     Microsoft__Quantum__Intrinsic__CNOT.Apply((msg, register));
-#line 44 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 26 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                     Microsoft__Quantum__Intrinsic__H.Apply(msg);
-#line 51 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 31 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                     if ((Microsoft__Quantum__Measurement__MResetZ.Apply(msg) == Result.One))
                     {
-#line 51 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 33 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                         Microsoft__Quantum__Intrinsic__Z.Apply(target);
                     }
 
-#line 56 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 38 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                     if (Microsoft__Quantum__Canon__IsResultOne.Apply(Microsoft__Quantum__Measurement__MResetZ.Apply(register)))
                     {
-#line 56 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 40 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                         Microsoft__Quantum__Intrinsic__X.Apply(target);
                     }
                 }
@@ -169,7 +169,7 @@ namespace Teleportation
         }
     }
 
-    [SourceLocation("C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs", OperationFunctor.Body, 76, -1)]
+    [SourceLocation("C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs", OperationFunctor.Body, 60, -1)]
     public partial class TeleportClassicalMessage : Operation<Boolean, Boolean>, ICallable
     {
         public TeleportClassicalMessage(IOperationFactory m) : base(m)
@@ -213,22 +213,22 @@ namespace Teleportation
             var message = __in__;
 #line hidden
             {
-#line 78 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 63 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                 var (msg,target) = (Allocate__.Apply(), Allocate__.Apply());
 #line hidden
                 bool __arg1__ = true;
                 try
                 {
-#line 81 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 66 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                     if (message)
                     {
-#line 82 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 68 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                         Microsoft__Quantum__Intrinsic__X.Apply(msg);
                     }
 
-#line 86 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 72 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                     Teleport__.Apply((msg, target));
-#line 89 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\Teleportation.qs"
+#line 75 "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\Teleportation.qs"
                     return (Microsoft__Quantum__Measurement__MResetZ.Apply(target) == Result.One);
                 }
 #line hidden

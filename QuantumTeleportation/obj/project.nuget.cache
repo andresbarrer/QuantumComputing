@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ktneRGieoXRt0qnsWIUxspuPTdd3CX3vrq6UC7faBsVZ/FnmbPRoGFeaDAVA5L6S9dh4m+O/AbsAwkJlZOTSAQ==",
+  "dgSpecHash": "yvVe7NxS7DgSJzBtNOMTc8R6UoXYCL1pwNY+swAGJCNGzHfgVkYBryl+NJKOulBdeRkENhA6Oqsrngrjw124Zg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation\\QuantumTeleportation.csproj",
+  "projectFilePath": "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Andres\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Andres\\.nuget\\packages\\azure.identity\\1.5.0\\azure.identity.1.5.0.nupkg.sha512",

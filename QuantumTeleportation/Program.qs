@@ -9,12 +9,14 @@ namespace QuantumTeleportation
     open Teleportation;
 
     @EntryPoint()
-    operation RunProgram () : Unit {
-        for idxRun in 1 .. 8 {
+    operation RunProgram () : Unit 
+    {
+        for i in 1..8 
+        {
             let sent = DrawRandomBool(0.5);
             let received = TeleportClassicalMessage(sent);
-            Message($"Round {idxRun}: Sent {sent}, got {received}.");
-            Message(sent == received ? "Teleportation successful!" | "");
+            Message($"Round {i}: Sent {sent}, got {received}.");
+            Message(sent == received ? "Success.\n" | "Failed.");
         }
     }
 }

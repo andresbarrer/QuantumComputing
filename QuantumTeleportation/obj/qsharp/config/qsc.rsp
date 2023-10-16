@@ -1,15 +1,15 @@
 --proj
-    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\QuantumTeleportation\QuantumTeleportation"
+    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\QuantumTeleportation"
 --build-exe
 --input
-    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\QuantumTeleportation\Program.qs"
-    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\QuantumTeleportation\Teleportation.qs"
-    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\QuantumTeleportation\Utils.qs"
-    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\QuantumTeleportation\Program.qs"
-    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\QuantumTeleportation\Teleportation.qs"
-    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\QuantumTeleportation\Utils.qs"
+    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\Program.qs"
+    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\Teleportation.qs"
+    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\Utils.qs"
+    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\Program.qs"
+    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\Teleportation.qs"
+    "C:\Users\Andres\Documents\GitHub\School\QuantumComputing\QuantumTeleportation\Utils.qs"
 --output
-    "C:/Users/Andres/Documents/GitHub/School/QuantumComputing/QuantumTeleportation/QuantumTeleportation/obj/qsharp/"
+    "C:/Users/Andres/Documents/GitHub/School/QuantumComputing/QuantumTeleportation/obj/qsharp/"
 --references
     "C:\Users\Andres\.nuget\packages\azure.core\1.25.0\lib\net5.0\Azure.Core.dll"
     "C:\Users\Andres\.nuget\packages\azure.identity\1.5.0\lib\netstandard2.0\Azure.Identity.dll"
@@ -47,7 +47,7 @@
     FullComputation
 --skip-monomorphization
 --package-load-fallback-folders
-    "C:/Users/Andres/Documents/GitHub/School/QuantumComputing/QuantumTeleportation/QuantumTeleportation/bin/Debug/net6.0/"
+    "C:/Users/Andres/Documents/GitHub/School/QuantumComputing/QuantumTeleportation/bin/Debug/net6.0/"
 --assembly-properties
     DocsPackageId:QuantumTeleportation
     ExecutionTarget:Any
