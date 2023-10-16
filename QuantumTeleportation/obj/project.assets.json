@@ -7456,19 +7456,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Andres\\.nuget\\packages\\": {}
+    "/home/andres/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation.csproj",
+      "projectUniqueName": "/home/andres/Documents/GitHub/School/QuantumComputing/QuantumTeleportation/QuantumTeleportation.csproj",
       "projectName": "QuantumTeleportation",
-      "projectPath": "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\QuantumTeleportation.csproj",
-      "packagesPath": "C:\\Users\\Andres\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Andres\\Documents\\GitHub\\School\\QuantumComputing\\QuantumTeleportation\\obj\\",
+      "projectPath": "/home/andres/Documents/GitHub/School/QuantumComputing/QuantumTeleportation/QuantumTeleportation.csproj",
+      "packagesPath": "/home/andres/.nuget/packages/",
+      "outputPath": "/home/andres/Documents/GitHub/School/QuantumComputing/QuantumTeleportation/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Andres\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/home/andres/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -7536,19 +7536,15 @@
         "downloadDependencies": [
           {
             "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
+            "version": "[6.0.8, 6.0.8]"
           },
           {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[6.0.21, 6.0.21]"
+            "name": "Microsoft.NETCore.App.Host.linux-x64",
+            "version": "[6.0.8, 6.0.8]"
           },
           {
             "name": "Microsoft.NETCore.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[6.0.21, 6.0.21]"
+            "version": "[6.0.8, 6.0.8]"
           }
         ],
         "frameworkReferences": {
@@ -7556,7 +7552,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.400/RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -30,8 +30,12 @@ namespace Teleportation {
         H(register);
         CNOT(register, target);
 
-        // Encode the message into the entangled pair.
-        CNOT(msg, register);
+        // Encode the message into the entangled pair
+        // Only needed when we want to transfer both the relative phase information and the value of the qubit
+        // Not needed if only teleporing a classical message
+        CNOT(msg, register); // Encondes the VALUE, not the PHASE information
+        
+        // Prepare the msg for reading to affect the target (Error correction in teleportation)
         H(msg);
 
         // Measure the qubits to extract the classical data we need to decode the message by applying the corrections on
@@ -48,15 +52,16 @@ namespace Teleportation {
         // teleporation process, and to correct it
 
 
-        // Used to transfer the phase information of the message
-        if (MResetZ(msg) == One) // MResetZ = measure a qubit in the Z basis, then returns it to its previous value
+        // Used to transfer the phase information of the message, by first measuring, then affecting the target qubit
+        // One = The result of a measurement that projected the state onto the -1 eigenspace of the measured quantum operator.
+        if (MResetZ(msg) == One) // MResetZ = measures msg in the Z basis, then assigns that value to msg
         { 
             // negates the phase of the |1⟩ state
             Z(target); 
         }
 
         // Used to transfer the value of the message
-        if (IsResultOne(MResetZ(register))) 
+        if (MResetZ(register) == One) 
         { 
             // negates the phase of the |0⟩ state
             X(target); 
